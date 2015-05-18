@@ -55,7 +55,7 @@ $this->load->helper('form');
     <link href="<?php echo base_url("static/bootstrap-dialog/css/bootstrap-dialog.min.css"); ?>" rel="stylesheet" type="text/css" />
 
     <!-- jQuery 2.0.2 -->
-    <script src="<?php echo base_url("static/js/jquery-2.0.3.min.js"); ?>"></script>
+    <script src="<?php echo base_url("static/js/jquery-2.1.4.min.js"); ?>"></script>
     <script src="<?php echo base_url("static/js/jquery.validate.min.js"); ?>"></script>
     <script src="<?php echo base_url("static/js/jquery.form.min.js"); ?>"></script>
     <!-- Bootstrap -->

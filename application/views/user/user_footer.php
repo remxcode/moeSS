@@ -37,7 +37,7 @@
  */
 
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><script src="<?php echo base_url('static/js/jquery-2.1.1.js'); ?>"></script>
+?><script src="<?php echo base_url('static/js/jquery-2.1.4.min.js'); ?>"></script>
 <script src="<?php echo base_url('static/js/bootstrap.min.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('static/js/jquery-ui.min.js'); ?>" type="text/javascript"></script>
 <!-- AdminLTE App -->
