@@ -381,7 +381,7 @@ class User_model extends CI_Model
             $check_max = 100;
         }
 
-        $transfer_to_add = rand($check_min,$check_max);
+        $transfer_to_add = rand((int)$check_min,(int)$check_max);
         $this->add_transfer($username, $transfer_to_add  * 1024 * 1024 );
         $data = array( 'last_check_in_time' => time() );
         $this->db->where('user_name', $username);
